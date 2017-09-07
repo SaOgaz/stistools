@@ -1,0 +1,10 @@
+_task_name_ = string_kw(default="inttag")
+input = string_kw(default="", comment="Input tag FITS file")
+output = string_kw(default="", comment="Output FITS file")
+starttime = integer_kw(default=None, comment="start time (sec) for integrating events")
+increment = integer_kw(default=None, comment="time interval (sec)"
+rcount = integer_kw(default=1, comment="number of output image sets")
+verbose = boolean_kw(default=False, comment="Print more info?")
+highres = boolean_kw(default=False, comment="High resolution image output?")
+allevents = boolean_kw(default=False, comment="All EVENTS in input used, ignore GTI?")
+[ _RULES_ ]
