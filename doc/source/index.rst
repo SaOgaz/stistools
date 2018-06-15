@@ -23,6 +23,7 @@ Contents:
    wx2d
    radialvel
    r_util
+   tastis
    gettable
 
 Indices and tables
